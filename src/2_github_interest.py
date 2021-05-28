@@ -28,7 +28,7 @@ yearly_count.loc[2020:].plot(ax=ax, color="C0", ls="-.", legend=False, rot=45, g
 
 ax.set_ylabel("GitHub Stars")
 ax.set_xlabel("Year")
-ax.set_title("Cumulative Stars of Repo")
+ax.set_title("Cumulative Stars of Repository")
 
 ax.annotate("Repository created", xy=(2013, 1), xytext=(2010.1, 170),
             arrowprops=dict(facecolor='black', shrink=0.05))
