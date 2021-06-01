@@ -23,7 +23,8 @@ yearly_count.loc[2010, "Count"] = 0.0
 yearly_count.loc[2011, "Count"] = 0.0
 yearly_count.sort_index(inplace=True)
 
-ax = yearly_count.loc[:2020].plot(legend=False)
+ax = yearly_count.loc[:2013].plot(legend=False, alpha=0.5)
+yearly_count.loc[2013:2020].plot(legend=False, color='C0', ax=ax, marker='o')
 yearly_count.loc[2020:].plot(ax=ax, color="C0", ls="-.", legend=False, rot=45, grid=True)
 
 ax.set_ylabel("GitHub Stars")
