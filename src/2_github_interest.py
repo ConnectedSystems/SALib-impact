@@ -23,7 +23,7 @@ yearly_count.loc[2010, "Count"] = 0.0
 yearly_count.loc[2011, "Count"] = 0.0
 yearly_count.sort_index(inplace=True)
 
-ax = yearly_count.loc[:2013].plot(legend=False, alpha=0.5, figsize=(8,6))
+ax = yearly_count.loc[:2013].plot(legend=False, alpha=0.0, figsize=(8,6))
 yearly_count.loc[2013:2020].plot(legend=False, color='C0', ax=ax, marker='o')
 yearly_count.loc[2020:].plot(ax=ax, color="C0", ls="-.", legend=False, rot=45, grid=True)
 
@@ -32,6 +32,12 @@ ax.set_xlabel("Year")
 ax.set_title("Cumulative Stars of Repository")
 
 ax.annotate("Repository created", xy=(2013, 1), xytext=(2010.1, 170),
+            arrowprops=dict(facecolor='black', shrink=0.05))
+
+ax.annotate("Release of v1.0", xy=(2016, 130), xytext=(2011.1, 235),
+            arrowprops=dict(facecolor='black', shrink=0.05))
+
+ax.annotate("Herman & Usher (2017)", xy=(2017, 190), xytext=(2012.1, 305),
             arrowprops=dict(facecolor='black', shrink=0.05))
 
 plt.tight_layout()

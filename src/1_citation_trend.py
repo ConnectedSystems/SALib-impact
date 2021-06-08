@@ -27,7 +27,7 @@ pubs_per_year = citing_pubs.groupby(["Year"]).count()
 ax = pubs_per_year.loc[2017:2020].plot(legend=False, marker='o')
 (pubs_per_year.loc[2015:2017]
               .plot(ax=ax, color="C0",
-                    ls="-", legend=False, alpha=0.5, figsize=(8,6)))
+                    ls="-", legend=False, alpha=0.0, figsize=(8,6)))
 
 (pubs_per_year.loc[2020:]
               .plot(ax=ax, color="C0", 

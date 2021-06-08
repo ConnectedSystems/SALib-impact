@@ -24,11 +24,22 @@ prog_pop = pd.read_csv(f"{DATA_DIR}/pl_pop.zip",
                        parse_dates=True,
                        index_col=0)
 
-ax = prog_pop.loc["2015":, "Python"].plot(title="Python PYPL Index", figsize=(8,6), rot=45)
+prog_pop.iloc[-1, :].sort_values(ascending=False)
+
+ax = prog_pop.loc["2010":, ["Python", "Java", "R"]].plot(title="PYPL Index", 
+                                                         figsize=(8,6), 
+                                                         rot=45,
+                                                         legend=False)
 ax.set_ylabel("Percentage of searches")
 
+py_loc = prog_pop.iloc[-1, :]["Python"]
+java_loc = prog_pop.iloc[-1, :]["Java"]
+r_loc = prog_pop.iloc[-1, :]["R"]
+ax.text("2021", py_loc+1.5, "Python")
+ax.text("2021", java_loc+1.5, "Java")
+ax.text("2021", r_loc+1.5, "R")
+
+# ax.text("2011-06-01", r_loc-15, "Repository created")
 
 plt.tight_layout()
 plt.savefig(f"{FIG_DIR}/PYPL_trend.png", dpi=300)
-
-
