@@ -1,9 +1,11 @@
 SALib-impact
 
+Code for citation analysis and figures to support submitted manuscript.
+
 
 ## Notes
 
-Data Sources:
+### Data Sources:
 
 Star history:
 
@@ -12,7 +14,10 @@ https://star-history.t9t.io/#SALib/SALib
 
 Citation data:
 
-Sourced from https://dimensions.ai and Google Scholar
+Sourced from Google Scholar (via [Publish or Perish v7.33](https://harzing.com/blog/2019/09/publish-or-perish-version-7))
+
+Alternative sources could include:
+https://dimensions.ai
 
 https://app.dimensions.ai/details/publication/pub.1068918762?search_mode=content&search_text=%22SALib%3A%20An%20open-source%20Python%20library%20for%20Sensitivity%0AAnalysis%22&search_type=kws&search_field=text_search 
 

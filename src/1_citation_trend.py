@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from common import *
 
 
-citing_pubs = pd.read_csv(DATA_DIR+"/SALib_PoPCites.csv", usecols=["Year"], dtype={'Year': 'Int64'})
+citing_pubs = pd.read_csv(DATA_DIR+"/SALib_PoPCites_2021-09-23.csv", usecols=["Year"], dtype={'Year': 'Int64'})
 
 num_citations = len(citing_pubs.index)
 
@@ -29,7 +29,7 @@ ax = pubs_per_year.loc[2017:2020].plot(legend=False, marker='o')
               .plot(ax=ax, color="C0",
                     ls="-", legend=False, alpha=0.0, figsize=(8,6)))
 
-(pubs_per_year.loc[2020:]
+(pubs_per_year.loc[2020:2021]
               .plot(ax=ax, color="C0", 
                     ls="-.", legend=False, rot=45, grid=True))
 

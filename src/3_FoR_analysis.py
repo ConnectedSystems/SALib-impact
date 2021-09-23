@@ -6,7 +6,7 @@ from common import *
 
 plt.style.use('seaborn-colorblind')
 
-for_spread = pd.read_csv(f"{DATA_DIR}/2021-05-27_FoR_data.csv", 
+for_spread = pd.read_csv(f"{DATA_DIR}/2021-09-23_FoR_data.csv", 
                             index_col=0)
 
 # Strip FoR ID number

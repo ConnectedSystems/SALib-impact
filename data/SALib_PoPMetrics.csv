@@ -1,0 +1,2 @@
+﻿Query,Source,Papers,Citations,Years,Cites_Year,Cites_Paper,Cites_Author,Papers_Author,Authors_Paper,h_index,g_index,hc_index,hI_index,hI_norm,AWCR,AW_index,AWCRpA,e_index,hm_index,QueryDate,Cites_Author_Year,hI_annual,h_coverage,g_coverage,star_count,year_first,year_last,ECC,acc1,acc2,acc5,acc20,hA
+"SALib: an open-source Python library for sensitivity analysis [Citing works]","Google Scholar Citing",365,1839,4,459.75,5.04,641.92,154.03,3.19,23,33,36,6.53,11,1099.50,33.16,349.90,19.60,12.77,"2021-06-03 16:26:23",160.48,2.75,49.6,59.8,32,2017,2021,1839,183,129,73,8,15

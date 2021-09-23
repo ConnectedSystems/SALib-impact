@@ -1,0 +1,18 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/win-64/ca-certificates-2021.5.30-h5b45459_0.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/tzdata-2021a-he74cb21_1.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.20348.0-h57928b3_0.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/vs2015_runtime-14.29.30037-h902a5da_5.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/vc-14.2-hb210afc_5.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/openssl-1.1.1k-h8ffe710_0.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/sqlite-3.36.0-h8ffe710_0.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/python-3.9.6-h7840368_1_cpython.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/python_abi-3.9-2_cp39.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/wheel-0.37.0-pyhd8ed1ab_1.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/certifi-2021.5.30-py39hcbf5309_0.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/wincertstore-0.2-py39hcbf5309_1006.tar.bz2
+https://conda.anaconda.org/conda-forge/win-64/setuptools-49.6.0-py39hcbf5309_3.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/pip-21.2.4-pyhd8ed1ab_0.tar.bz2

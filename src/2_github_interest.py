@@ -6,7 +6,7 @@ from common import *
 
 plt.style.use('seaborn-colorblind')
 
-star_increase = pd.read_csv(f"{DATA_DIR}/2021-05-26_SALib_star_history.csv", 
+star_increase = pd.read_csv(f"{DATA_DIR}/2021-09-23_SALib_star_history.csv", 
                             index_col=1, 
                             names=["Repo", "Starred", "Count"],
                             parse_dates=True)
@@ -31,13 +31,13 @@ ax.set_ylabel("GitHub Stars")
 ax.set_xlabel("Year")
 ax.set_title("Cumulative Stars of Repository")
 
-ax.annotate("Repository created", xy=(2013, 1), xytext=(2010.1, 170),
+ax.annotate("Repository created", xy=(2013, 1), xytext=(2010.1, 110),
             arrowprops=dict(facecolor='black', shrink=0.05))
 
-ax.annotate("Release of v1.0", xy=(2016, 130), xytext=(2011.1, 235),
+ax.annotate("Release of v1.0", xy=(2016, 80), xytext=(2010.8, 200),
             arrowprops=dict(facecolor='black', shrink=0.05))
 
-ax.annotate("Herman & Usher (2017)", xy=(2017, 190), xytext=(2012.1, 305),
+ax.annotate("Herman & Usher (2017)", xy=(2017, 120), xytext=(2012.1, 305),
             arrowprops=dict(facecolor='black', shrink=0.05))
 
 plt.tight_layout()
