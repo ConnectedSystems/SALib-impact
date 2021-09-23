@@ -2,6 +2,8 @@ SALib-impact
 
 Code for citation analysis and figures to support submitted manuscript.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5523624.svg)](https://doi.org/10.5281/zenodo.5523624)
+
 
 ## Notes
 
