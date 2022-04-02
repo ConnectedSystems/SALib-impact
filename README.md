@@ -5,6 +5,12 @@ Code for citation analysis and figures to support submitted manuscript.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5523624.svg)](https://doi.org/10.5281/zenodo.5523624)
 
 
+The `src` directory holds Python scripts to conduct analysis of citation trends.
+
+The `notebooks` directory holds Jupyter Notebooks to produce example code snippets for the manuscript.
+
+Figures are stored in the `figures` folder.
+
 ## Notes
 
 ### Data Sources:
