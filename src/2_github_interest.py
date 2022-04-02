@@ -6,7 +6,7 @@ from common import *
 
 plt.style.use('seaborn-colorblind')
 
-star_increase = pd.read_csv(f"{DATA_DIR}/2021-09-23_SALib_star_history.csv", 
+star_increase = pd.read_csv(f"{DATA_DIR}/2022-04-02_SALib_star_history.csv", 
                             index_col=1, 
                             names=["Repo", "Starred", "Count"],
                             parse_dates=True)
@@ -24,8 +24,8 @@ yearly_count.loc[2011, "Count"] = 0.0
 yearly_count.sort_index(inplace=True)
 
 ax = yearly_count.loc[:2013].plot(legend=False, alpha=0.0, figsize=(8,6))
-yearly_count.loc[2013:2020].plot(legend=False, color='C0', ax=ax, marker='o')
-yearly_count.loc[2020:].plot(ax=ax, color="C0", ls="-.", legend=False, rot=45, grid=True)
+yearly_count.loc[2013:2021].plot(legend=False, color='C0', ax=ax, marker='o')
+yearly_count.loc[2021:].plot(ax=ax, color="C0", ls="--", legend=False, rot=45, grid=True)
 
 ax.set_ylabel("GitHub Stars")
 ax.set_xlabel("Year")
