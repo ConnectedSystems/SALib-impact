@@ -1,8 +1,13 @@
-SALib-impact
+SALib-impact  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5523624.svg)](https://doi.org/10.5281/zenodo.5523624)
 
-Code for citation analysis and figures to support submitted manuscript.
+Code for citation analysis and figures to support the paper published in [SESMO](https://sesmo.org/article/view/18155).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5523624.svg)](https://doi.org/10.5281/zenodo.5523624)
+    Iwanaga, T., Usher, W., & Herman, J. (2022). Toward SALib 2.0: Advancing the accessibility and interpretability of global sensitivity analyses. Socio-Environmental Systems Modelling, 4, 18155. Retrieved from https://sesmo.org/article/view/18155
+
+
+This repository can be cited directly as:
+
+    Iwanaga, T. (2021). ConnectedSystems/SALib-impact: v0.5 (v0.5). Zenodo. https://doi.org/10.5281/zenodo.5523624
 
 
 The `src` directory holds Python scripts to conduct analysis of citation trends.
